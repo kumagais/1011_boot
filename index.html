@@ -3,15 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BootStrap</title>
+    <title>BootStrapの練習</title>
     <!-- CSSを読み込む -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
+    <header class="bg-dark text-white">
+        <h1 class="text-center display-1  p-3 mb-5">BootStrapの練習</h1>
+    </header>
+    <div class="container">
+        <main>
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Blog</li>
+                </ol>
+            </nav>
+
+            <div class="row g-3">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="http://placekitten.com/800/400" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">記事のタイトル</h5>
+                            <p class="card-text">記事の本文です。</p>
+                            <a href="#" class="btn btn-info">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="http://placekitten.com/800/400" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">記事のタイトル</h5>
+                            <p class="card-text">記事の本文です。</p>
+                            <a href="#" class="btn btn-info">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="http://placekitten.com/800/400" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">記事のタイトル</h5>
+                            <p class="card-text">記事の本文です。</p>
+                            <a href="#" class="btn btn-info">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
 
 
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    </ul>
+                </nav>
 
+            </div>
+
+        </main>
+        <footer class="text-center">
+            <span class="border-top"><small>©︎trident</small></span>
+        </footer>
+    </div>
     <!-- JSを読み込む -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
 </body>
